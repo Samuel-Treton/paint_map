@@ -65,7 +65,7 @@ python main.py
 
 ## 📂 Sauvegarde et chargement
 
-- Les images sauvegardées seront placées automatiquement dans le dossier courant au format PNG : painted_image_DATE.png
+- Les images sauvegardées seront placées automatiquement dans le dossier courant au format PNG : `painted_image_DATE.png`
 - Le chargement supporte uniquement le format PNG.
 
 ## 📜 Licence
