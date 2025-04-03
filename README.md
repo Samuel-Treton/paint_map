@@ -1,6 +1,6 @@
-# 🎨 Interactive Paint Tool (2D/3D)
+# 🎨 Interactive Paint Map (2D/3D)
 
-Un outil interactif en Python permettant de peindre en temps réel sur une toile 2D, avec une visualisation instantanée en 3D. Il est idéal pour explorer des textures, expérimenter visuellement, ou simplement dessiner rapidement.
+Un outil interactif en Python permettant de peindre des reliefs en temps réel sur une toile 2D, avec une visualisation instantanée en 3D.
 
 ---
 
@@ -35,9 +35,39 @@ Un outil interactif en Python permettant de peindre en temps réel sur une toile
 - `numpy`
 - `matplotlib`
 - `scipy`
-- `tkinter` *(habituellement inclus par défaut)*
+- `tkinter`
 
 Installation via pip :
 ```bash
-pip install numpy matplotlib scipy
+pip install numpy matplotlib scipy tkinter
 ```
+
+## ▶️ Utilisation
+
+Pour lancer l'application, exécute cette commande dans un terminal :
+
+```bash
+python main.py
+```
+
+## 🎮 Commandes et raccourcis clavier
+
+| Action                             | Raccourci              |
+|------------------------------------|------------------------|
+| **Peindre**                        | Clic gauche souris     |
+| **Effacer**                        | Clic droit souris      |
+| **Modifier le rayon du pinceau**   | Molette souris         |
+| **Sauvegarder l’image actuelle**   | Touche `z`             |
+| **Réinitialiser la toile**         | Touche `r`             |
+| **Importer une image externe**     | Touche `a`             |
+| **Lissage gaussien**               | Bouton `Smooth`        |
+| **Afficher/Masquer la vue 3D**     | Bouton `3D`            |
+
+## 📂 Sauvegarde et chargement
+
+- Les images sauvegardées seront placées automatiquement dans le dossier courant au format PNG : painted_image_DATE.png
+- Le chargement supporte uniquement le format PNG.
+
+## 📜 Licence
+
+Ce projet est diffusé sous licence MIT — voir le fichier [LICENSE](LICENSE) pour plus de détails.
