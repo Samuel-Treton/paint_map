@@ -42,6 +42,8 @@ Installation via pip :
 pip install numpy matplotlib scipy tkinter
 ```
 
+Pour plus de détails sur les dépendances, voir le fichier [`requirements.txt`](requirements.txt).
+
 ## ▶️ Utilisation
 
 Pour lancer l'application, exécute cette commande dans un terminal :
