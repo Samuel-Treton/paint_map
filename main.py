@@ -3,13 +3,12 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
 from matplotlib.widgets import Slider, Button
 from scipy.ndimage import gaussian_filter
-from mpl_toolkits.mplot3d import Axes3D
 import datetime
 import tkinter as tk
 from tkinter import filedialog
 
 # 🔧 Paramètres
-N = 100
+N = 100 # Résolution de l'image en pixels
 grid_size = (N, N)
 brush_radius = 10
 brush_min = 1

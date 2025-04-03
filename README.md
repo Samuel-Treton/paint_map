@@ -1,75 +1,76 @@
 # 🎨 Interactive Paint Map (2D/3D)
 
-Un outil interactif en Python permettant de peindre des reliefs en temps réel sur une toile 2D, avec une visualisation instantanée en 3D.
+An interactive Python tool for painting reliefs in real-time on a 2D canvas, with instant 3D visualization.
 
 ---
 
-## 🚀 Fonctionnalités principales
+## 🚀 Main Features
 
-- **Peinture interactive**
-	- Dessiner avec un clic gauche.
-	- Gommer avec un clic droit.
+- **Interactive Painting**
+	- Draw with the left mouse button.
+	- Erase with the right mouse button.
 
-- **Visualisation 3D dynamique**
-	- Mise à jour automatique de la vue 3D en temps réel.
-	- Bouton pour activer ou désactiver rapidement cette vue.
+- **Dynamic 3D Visualization**
+	- Automatic real-time updates of the 3D view.
+	- Button to quickly enable or disable this view.
 
-- **Contrôles ajustables en temps réel**
-	- Rayon du pinceau via molette de la souris.
-	- Intensité de la peinture (`Incrément`) avec slider.
-	- Fusion douce des traits (`Blend`) avec slider.
+- **Real-Time Adjustable Controls**
+	- Brush radius via mouse wheel.
+	- Painting intensity (`Increment`) with a slider.
+	- Smooth blending of strokes (`Blend`) with a slider.
 
-- **Filtres et effets**
-	- Application d’un lissage gaussien via bouton dédié.
+- **Filters and Effects**
+	- Apply Gaussian smoothing via a dedicated button.
 
-- **Gestion simplifiée des images**
-	- Sauvegarde rapide (touche `z`).
-	- Chargement d’images externes (touche `a`).
-	- Réinitialisation complète de la toile (touche `r`).
+- **Simplified Image Management**
+	- Quick save (key `z`).
+	- Load external images (key `a`).
+	- Fully reset the canvas (key `r`).
 
 ---
 
-## 📥 Installation rapide
+## 📥 Quick Installation
 
-### 📌 Dépendances nécessaires :
+### 📌 Required Dependencies:
 - `numpy`
 - `matplotlib`
 - `scipy`
 - `tkinter`
 
-Installation via pip :
+Install via pip:
 ```bash
 pip install numpy matplotlib scipy tkinter
 ```
 
-Pour plus de détails sur les dépendances, voir le fichier [`requirements.txt`](requirements.txt).
+For more details on dependencies, see the [requirements.txt](requirements.txt) file.
 
-## ▶️ Utilisation
+## ▶️ Usage
 
-Pour lancer l'application, exécute cette commande dans un terminal :
+To launch the application, run this command in a terminal:
 
 ```bash
-python main.py
+python3 main.py
 ```
 
-## 🎮 Commandes et raccourcis clavier
+## 🎮 Commands and Keyboard Shortcuts
 
-| Action                             | Raccourci              |
+| Action                             | Shortcut               |
 |------------------------------------|------------------------|
-| **Peindre**                        | Clic gauche souris     |
-| **Effacer**                        | Clic droit souris      |
-| **Modifier le rayon du pinceau**   | Molette souris         |
-| **Sauvegarder l’image actuelle**   | Touche `z`             |
-| **Réinitialiser la toile**         | Touche `r`             |
-| **Importer une image externe**     | Touche `a`             |
-| **Lissage gaussien**               | Bouton `Smooth`        |
-| **Afficher/Masquer la vue 3D**     | Bouton `3D`            |
+| **Paint**                          | Left mouse click       |
+| **Erase**                          | Right mouse click      |
+| **Adjust brush radius**            | Mouse wheel            |
+| **Save the current image**         | Key `z`                |
+| **Reset the canvas**               | Key `r`                |
+| **Import an external image**       | Key `a`                |
+| **Quit the application**           | Key `q`                |
+| **Gaussian smoothing**             | `Smooth` button        |
+| **Show/Hide 3D view**              | `3D` button            |
 
-## 📂 Sauvegarde et chargement
+## 📂 Saving and Loading
 
-- Les images sauvegardées seront placées automatiquement dans le dossier courant au format PNG : `painted_image_DATE.png`
-- Le chargement supporte uniquement le format PNG.
+- Saved images will automatically be placed in the current folder in PNG format: `painted_image_DATE.png`
+- Loading supports PNG format only.
 
-## 📜 Licence
+## 📜 License
 
-Ce projet est diffusé sous licence MIT — voir le fichier [LICENSE](LICENSE) pour plus de détails.
+This project is distributed under the MIT license — see the [LICENSE](LICENSE) file for more details.
