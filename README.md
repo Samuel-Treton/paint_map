@@ -7,25 +7,25 @@ Un outil interactif en Python permettant de peindre en temps réel sur une toile
 ## 🚀 Fonctionnalités principales
 
 - **Peinture interactive**
-  - Dessiner avec un clic gauche.
-  - Gommer avec un clic droit.
+	- Dessiner avec un clic gauche.
+	- Gommer avec un clic droit.
 
 - **Visualisation 3D dynamique**
-  - Mise à jour automatique de la vue 3D en temps réel.
-  - Bouton pour activer ou désactiver rapidement cette vue.
+	- Mise à jour automatique de la vue 3D en temps réel.
+	- Bouton pour activer ou désactiver rapidement cette vue.
 
 - **Contrôles ajustables en temps réel**
-  - Rayon du pinceau via molette de la souris.
-  - Intensité de la peinture (`Incrément`) avec slider.
-  - Fusion douce des traits (`Blend`) avec slider.
+	- Rayon du pinceau via molette de la souris.
+	- Intensité de la peinture (`Incrément`) avec slider.
+	- Fusion douce des traits (`Blend`) avec slider.
 
 - **Filtres et effets**
-  - Application d’un lissage gaussien via bouton dédié.
+	- Application d’un lissage gaussien via bouton dédié.
 
 - **Gestion simplifiée des images**
-  - Sauvegarde rapide (touche `z`).
-  - Chargement d’images externes (touche `a`).
-  - Réinitialisation complète de la toile (touche `r`).
+	- Sauvegarde rapide (touche `z`).
+	- Chargement d’images externes (touche `a`).
+	- Réinitialisation complète de la toile (touche `r`).
 
 ---
 
@@ -40,7 +40,4 @@ Un outil interactif en Python permettant de peindre en temps réel sur une toile
 Installation via pip :
 ```bash
 pip install numpy matplotlib scipy
-
----
-
-#### 🚀 Fonctionnalités principales
+```
